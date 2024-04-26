@@ -18,7 +18,11 @@ function Greeting() {
 
 // Let's render the JSX code-block
 function App() {
-  return <Greeting />;
+  return (
+    <div>
+      <Greeting />;
+    </div>
+  );
 }
 
 export default App;
