@@ -1,7 +1,7 @@
 import React from "react";
 import JSXComponent from "./lesson-tasks-frameworks/Module-1/01-JSX/App";
 import ComponentsComponent from "./lesson-tasks-frameworks/Module-1/02-components/App";
-import PropsComponent from "./lesson-tasks-frameworks/Module-1/03-props/App";
+import PropsComponent from "./lesson-tasks-frameworks/Module-1/03-props/Props.js";
 import EventsComponent from "./lesson-tasks-frameworks/Module-1/04-events/App";
 import StateComponent from "./lesson-tasks-frameworks/Module-1//05-state/App";
 

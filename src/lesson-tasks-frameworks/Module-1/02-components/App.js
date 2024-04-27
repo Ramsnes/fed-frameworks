@@ -9,18 +9,14 @@ import React from "react";
 
 // Component with JSX code-block
 function Greeting() {
-  return (
-    <div>
-      <p>Hi, Ola Nordmann</p>
-    </div>
-  );
+  return <p>Hi, Ola Nordmann</p>;
 }
 
 // Let's render the JSX code-block
 function App() {
   return (
-    <div>
-      <Greeting />;
+    <div className="greetDiv">
+      <Greeting />
     </div>
   );
 }

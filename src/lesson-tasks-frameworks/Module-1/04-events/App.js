@@ -10,14 +10,14 @@ Attach this function to your button element, making sure that clicking the butto
 
 import React from "react";
 
-function handleBtnClick() {
+function message() {
   console.log("Button clicked!");
 }
 
 function App() {
   return (
     <div>
-      <button onClick={handleBtnClick}>Click me</button>;
+      <button onClick={message}>Click me</button>;
     </div>
   );
 }
@@ -25,8 +25,8 @@ function App() {
 export default App;
 
 /* W/ argument and arrow function
-function handleBtnClick(argument) {
+function message(argument) {
   console.log("Button clicked!", argument);
 }
 
-<button onClick={() => handleBtnClick(10)}>Click</button>; */
+<button onClick={() => message(10)}>Click</button>; */

@@ -7,12 +7,12 @@ Display this component to the screen using random values you’d like to use.
 
 Reuse this component again, but use different values this time.
  */
+
 import React from "react";
 
 // Component
 function Person(props) {
   console.log(props);
-
   return (
     <p>
       {props.firstName}, {props.lastName}, {props.city}
@@ -26,13 +26,13 @@ function Person(props) {
 //   return (
 //     <p>
 //       {firstName}, {lastName}, {city}
-//     </p> )
+//     </p> )}
 
 function App() {
   return (
     <div>
       <Person firstName="Morten" lastName="Ramfjord" city="Trondheim" />
-      <Person firstName="Åsta" lastName="Hansen" city="Poopseland" />
+      <Person firstName="Solid" lastName="Snake" city="Zanzibar" />
     </div>
   );
 }
