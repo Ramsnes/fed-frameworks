@@ -4,6 +4,8 @@ import ComponentsComponent from "./lesson-tasks-frameworks/Module-1/02-component
 import PropsComponent from "./lesson-tasks-frameworks/Module-1/03-props/Props.js";
 import EventsComponent from "./lesson-tasks-frameworks/Module-1/04-events/App";
 import StateComponent from "./lesson-tasks-frameworks/Module-1//05-state/App";
+import MappingComponent from "./lesson-tasks-frameworks/Module-1/06-mapping/App.js";
+import ConditionalRenderingComponent from "./lesson-tasks-frameworks/Module-1/07-conditionalRendering/App.js";
 
 const greeting = React.createElement("div", {}, "Hello, world!");
 
@@ -24,6 +26,8 @@ function App() {
       <PropsComponent />
       <EventsComponent />
       <StateComponent />
+      <MappingComponent />
+      <ConditionalRenderingComponent />
     </div>
   );
 }
