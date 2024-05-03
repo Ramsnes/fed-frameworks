@@ -1,10 +1,12 @@
+// ProductsList.js
 import React from "react";
 
-function ProductList({ products }) {
+// ({ productsProp }) refers to 'const products' in App.js
+function ProductList(props) {
   return (
     <div>
       <ul>
-        {products.map((product) => (
+        {props.componentValue1.map((product) => (
           <li key={product.id}>
             {product.isOnSale
               ? `${product.title} - ${product.price} ON SALE`
@@ -17,3 +19,9 @@ function ProductList({ products }) {
 }
 
 export default ProductList;
+
+// Notes
+
+// if product is on sale, render title and price
+// if not, don't render
+// componentValue can be named whatever
