@@ -22,7 +22,7 @@ const products = [
 function App() {
   return (
     <div>
-      <ProductListComponent componentValue1={products} />;
+      <ProductListComponent componentValue1={products} />
     </div>
   );
 }

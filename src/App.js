@@ -11,7 +11,8 @@ import StateComponent from "./lesson-tasks-frameworks/Module-1//05-state/App";
 import MappingComponent from "./lesson-tasks-frameworks/Module-1/06-mapping/App.js";
 import ConditionalRenderingComponent from "./lesson-tasks-frameworks/Module-1/07-conditionalRendering/App.jsx";
 import BasicClassesComponent from "./lesson-tasks-frameworks/Module-2/08-basicClasses/App.jsx";
-import CssModule from "./lesson-tasks-frameworks/Module-2/09-cssModules/App.jsx";
+import CssModuleComponent from "./lesson-tasks-frameworks/Module-2/09-cssModules/App.jsx";
+import SassComponent from "./lesson-tasks-frameworks/Module-2/10-sass/App.jsx";
 
 const greeting = React.createElement("div", {}, "Hello, world!");
 
@@ -35,7 +36,8 @@ function App() {
       <MappingComponent />
       <ConditionalRenderingComponent />
       <BasicClassesComponent />
-      <CssModule />
+      <CssModuleComponent />
+      <SassComponent />
     </div>
   );
 }
