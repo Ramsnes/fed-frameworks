@@ -13,7 +13,7 @@ function Greeting() {
 }
 
 // Let's render the JSX code-block
-function App() {
+function Components() {
   return (
     <div className="greetDiv">
       <Greeting />
@@ -21,4 +21,4 @@ function App() {
   );
 }
 
-export default App;
+export default Components;

@@ -2,7 +2,7 @@ import React from "react";
 
 import "./styles/styles.css";
 
-function App() {
+function BasicClasses() {
   return (
     <div>
       <p className="text">Paragraph 1</p>
@@ -10,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export default BasicClasses;

@@ -15,7 +15,7 @@ const products = [
   { id: 3, title: "Water", price: 15.99 },
 ];
 
-function App() {
+function Mapping() {
   return (
     <div>
       <ProductsList products={products} />
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default Mapping;

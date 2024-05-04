@@ -5,7 +5,7 @@
 import "./styles/styles.scss";
 import React from "react";
 
-function App() {
+function Sass() {
   return (
     <div>
       <ul className="sass10ul">
@@ -16,4 +16,4 @@ function App() {
   );
 }
 
-export default App;
+export default Sass;

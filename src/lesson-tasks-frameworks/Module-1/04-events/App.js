@@ -14,7 +14,7 @@ function message() {
   console.log("Button clicked!");
 }
 
-function App() {
+function Events() {
   return (
     <div>
       <button onClick={message}>Click me</button>;
@@ -22,7 +22,7 @@ function App() {
   );
 }
 
-export default App;
+export default Events;
 
 /* W/ argument and arrow function
 function message(argument) {

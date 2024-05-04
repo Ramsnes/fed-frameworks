@@ -19,7 +19,7 @@ const products = [
   { id: 3, title: "Water", price: 15.99, isOnSale: true },
 ];
 
-function App() {
+function ConditionalRendering() {
   return (
     <div>
       <ProductListComponent componentValue1={products} />
@@ -27,7 +27,7 @@ function App() {
   );
 }
 
-export default App;
+export default ConditionalRendering;
 
 /* 
 function App()

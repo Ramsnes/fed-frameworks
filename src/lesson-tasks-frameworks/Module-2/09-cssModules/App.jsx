@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./styles/App.module.css";
 
-function App() {
+function CssModules() {
   return (
     <div className={styles.container}>
       <button className={styles.primary}>Click me</button>;
@@ -9,4 +9,4 @@ function App() {
   );
 }
 
-export default App;
+export default CssModules;

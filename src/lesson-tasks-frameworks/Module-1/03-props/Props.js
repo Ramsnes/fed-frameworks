@@ -28,7 +28,7 @@ function Person(props) {
 //       {firstName}, {lastName}, {city}
 //     </p> )}
 
-function App() {
+function Props() {
   return (
     <div>
       <Person firstName="Morten" lastName="Ramfjord" city="Trondheim" />
@@ -37,4 +37,4 @@ function App() {
   );
 }
 
-export default App;
+export default Props;

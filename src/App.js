@@ -1,6 +1,7 @@
 // General imports
 import React from "react";
 import "./styles/styles.css";
+import * as S from "./App.styles.jsx";
 
 // Lessons imports
 import JSXComponent from "./lesson-tasks-frameworks/Module-1/01-JSX/App";
@@ -13,6 +14,7 @@ import ConditionalRenderingComponent from "./lesson-tasks-frameworks/Module-1/07
 import BasicClassesComponent from "./lesson-tasks-frameworks/Module-2/08-basicClasses/App.jsx";
 import CssModuleComponent from "./lesson-tasks-frameworks/Module-2/09-cssModules/App.jsx";
 import SassComponent from "./lesson-tasks-frameworks/Module-2/10-sass/App.jsx";
+import StyledComponentsComponent from "./lesson-tasks-frameworks/Module-2/11-styledComponents/App.styles.jsx";
 
 const greeting = React.createElement("div", {}, "Hello, world!");
 
@@ -25,7 +27,8 @@ function App() {
   const productPrice = 19;
 
   return (
-    <div className="my-class">
+    // <div className="my-class">
+    <div>
       {productTitle}: {productPrice + 1}
       {productPrice > 10 ? " Not on sale" : " On sale"}
       <JSXComponent />
@@ -38,6 +41,12 @@ function App() {
       <BasicClassesComponent />
       <CssModuleComponent />
       <SassComponent />
+      <StyledComponentsComponent />
+      <div>
+        <S.Container>
+          <S.Heading>This H is imported as alias</S.Heading>
+        </S.Container>
+      </div>
     </div>
   );
 }

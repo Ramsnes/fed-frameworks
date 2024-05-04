@@ -23,7 +23,7 @@ function Product(props) {
 }
 
 // Render fn
-function App() {
+function State() {
   const [productTitle, setProductTitle] = useState("Milk");
 
   // Btn fn
@@ -41,7 +41,7 @@ function App() {
   );
 }
 
-export default App;
+export default State;
 
 // Create prop for rendering
 
