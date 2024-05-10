@@ -34,7 +34,8 @@ const products = [
 ];
 
 // Zustand store
-const useProductsStore = create((set) => ({
+// (set) will be utilised for 'setting' states
+const ZustandStore = create((set) => ({
   // State for the list of products
   products: products,
 
@@ -43,7 +44,9 @@ const useProductsStore = create((set) => ({
 
   // Fn to add a product to the cart
   addToCart: (productId) => {
+    // (state) represents the previous state of the store
     set((state) => ({
+      // Creates a new array and incl. prev. 'cart' array pluss new productId's added to cart
       cart: [...state.cart, productId],
     }));
   },
@@ -54,12 +57,13 @@ const useProductsStore = create((set) => ({
 
 //
 
+// App component
 function App() {
-  // Accessing state and actions from the Zustand store
-  const cart = useProductsStore((state) => state.cart);
-  const products = useProductsStore((state) => state.products);
-  const addToCart = useProductsStore((state) => state.addToCart);
-  const clearCart = useProductsStore((state) => state.clearCart);
+  // Accessing state and actions from the Zustand store function
+  const cart = ZustandStore((state) => state.cart);
+  const products = ZustandStore((state) => state.products);
+  const addToCart = ZustandStore((state) => state.addToCart);
+  const clearCart = ZustandStore((state) => state.clearCart);
 
   const getProductById = (productId) =>
     products.find((product) => product.id === productId);
@@ -81,9 +85,9 @@ function App() {
       </ul>
 
       {/* Buttons to add products to cart and clear cart */}
-      <button onClick={addToCart(0)}>Add Milk to cart</button>
-      <button onClick={addToCart(1)}>Add Bread to cart</button>
-      <button onClick={addToCart(2)}>Add Cheese to cart</button>
+      <button onClick={() => addToCart(0)}>Add Milk to cart</button>
+      <button onClick={() => addToCart(1)}>Add Bread to cart</button>
+      <button onClick={() => addToCart(2)}>Add Cheese to cart</button>
       <button onClick={clearCart}>Clear cart</button>
     </div>
   );

@@ -43,6 +43,7 @@ function UseContextApp() {
     <ProductContext.Provider value={products}>
       <div>
         <ProductList />
+        ---
       </div>
     </ProductContext.Provider>
   );
