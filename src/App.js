@@ -15,6 +15,12 @@ import BasicClassesComponent from "./lesson-tasks-frameworks/Module-2/08-basicCl
 import CssModuleComponent from "./lesson-tasks-frameworks/Module-2/09-cssModules/App.jsx";
 import SassComponent from "./lesson-tasks-frameworks/Module-2/10-sass/App.jsx";
 import StyledComponentsComponent from "./lesson-tasks-frameworks/Module-2/11-styledComponents/App.styles.jsx";
+import UsingImagesComponent from "./lesson-tasks-frameworks/Module-2/12-usingImages/App.jsx";
+import UseStateComponent from "./lesson-tasks-frameworks/Module-3/13-useState/App.jsx";
+import UseEffectComponent from "./lesson-tasks-frameworks/Module-3/14-useEffect/App.jsx";
+import UseReducerComponent from "./lesson-tasks-frameworks/Module-3/15-useReducer/App.jsx";
+import UseContextComponent from "./lesson-tasks-frameworks/Module-3/16-useContext/UseContextApp.jsx";
+import ZustandComponent from "./lesson-tasks-frameworks/Module-3/17-stateManagement/zustand/Zustand.jsx";
 
 const greeting = React.createElement("div", {}, "Hello, world!");
 
@@ -47,6 +53,12 @@ function App() {
           <S.Heading>This H is imported as alias</S.Heading>
         </S.Container>
       </div>
+      <UsingImagesComponent />
+      <UseStateComponent />
+      <UseEffectComponent />
+      <UseReducerComponent />
+      <UseContextComponent />
+      <ZustandComponent />
     </div>
   );
 }

@@ -45,7 +45,7 @@ export default State;
 
 // Create prop for rendering
 
-// Create App() render fn
+// Create State() render fn
 // Create useState inside Aop()
 // Create btn fn w/ setProductTitle to change product name
 
