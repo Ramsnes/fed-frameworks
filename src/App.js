@@ -1,3 +1,4 @@
+// App.js
 // General imports
 import React from "react";
 import "./styles/styles.css";
@@ -60,7 +61,7 @@ function App() {
       <UseReducerComponent />
       <UseContextComponent />
       <ZustandComponent />
-      {/* < ReactRouterComponent /> */}
+      <ReactRouterComponent />
     </div>
   );
 }
