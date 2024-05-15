@@ -22,7 +22,8 @@ import UseEffectComponent from "./lesson-tasks-frameworks/Module-3/14-useEffect/
 import UseReducerComponent from "./lesson-tasks-frameworks/Module-3/15-useReducer/App.jsx";
 import UseContextComponent from "./lesson-tasks-frameworks/Module-3/16-useContext/UseContextApp.jsx";
 import ZustandComponent from "./lesson-tasks-frameworks/Module-3/17-stateManagement/zustand/Zustand.jsx";
-import ReactRouterComponent from "./lesson-tasks-frameworks/Module-4/ReactRouter/App.jsx";
+import ReactRouterComponent from "./lesson-tasks-frameworks/Module-4/18-ReactRouter/App.jsx";
+import ApiCallsComponent from "./lesson-tasks-frameworks/Module-4/19-apiCalls/App.jsx";
 
 const greeting = React.createElement("div", {}, "Hello, world!");
 
@@ -62,6 +63,7 @@ function App() {
       <UseContextComponent />
       <ZustandComponent />
       <ReactRouterComponent />
+      <ApiCallsComponent />
     </div>
   );
 }
