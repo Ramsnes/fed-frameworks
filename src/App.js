@@ -24,6 +24,10 @@ import UseContextComponent from "./lesson-tasks-frameworks/Module-3/16-useContex
 import ZustandComponent from "./lesson-tasks-frameworks/Module-3/17-stateManagement/zustand/Zustand.jsx";
 import ReactRouterComponent from "./lesson-tasks-frameworks/Module-4/18-ReactRouter/App.jsx";
 import ApiCallsComponent from "./lesson-tasks-frameworks/Module-4/19-apiCalls/App.jsx";
+import RouteParseFetch from "./lesson-tasks-frameworks/Module-4/20-routParamsFetch/App.jsx";
+import CreateHooks from "./lesson-tasks-frameworks/Module-4/21-createHooks/App.jsx";
+import ApiHookApp from "./lesson-tasks-frameworks/Module-4/22-apiHook/App.jsx";
+import FormsApp from "./lesson-tasks-frameworks/Module-4/23-forms/App.jsx";
 
 const greeting = React.createElement("div", {}, "Hello, world!");
 
@@ -64,6 +68,10 @@ function App() {
       <ZustandComponent />
       <ReactRouterComponent />
       <ApiCallsComponent />
+      <RouteParseFetch />
+      <CreateHooks />
+      <ApiHookApp />
+      <FormsApp />
     </div>
   );
 }
