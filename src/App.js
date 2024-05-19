@@ -28,6 +28,8 @@ import RouteParseFetch from "./lesson-tasks-frameworks/Module-4/20-routParamsFet
 import CreateHooks from "./lesson-tasks-frameworks/Module-4/21-createHooks/App.jsx";
 import ApiHookApp from "./lesson-tasks-frameworks/Module-4/22-apiHook/App.jsx";
 import FormsApp from "./lesson-tasks-frameworks/Module-4/23-forms/App.jsx";
+import ReactHookForm from "./lesson-tasks-frameworks/Module-4/24-reactHookForm/App.jsx";
+import TestingInReactApp from "./lesson-tasks-frameworks/Module-5/25-testingReact/App.jsx";
 
 const greeting = React.createElement("div", {}, "Hello, world!");
 
@@ -72,6 +74,8 @@ function App() {
       <CreateHooks />
       <ApiHookApp />
       <FormsApp />
+      <ReactHookForm />
+      <TestingInReactApp />
     </div>
   );
 }
